@@ -8,8 +8,10 @@ Created on Sat Feb  4 01:10:14 2023
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
 import nltk
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
